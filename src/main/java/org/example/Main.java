@@ -42,7 +42,7 @@ public class Main extends TelegramLongPollingBot {
 
             sendImage("level-1",chatId);
             SendMessage message = createMessage("Ґа-ґа-ґа!\n" +
-                    "Вітаємо у боті біолабораторії «Батько наш Бандера».\n" +
+                    "Вітаємо у боті біолабораторії «Батько наш Бандера»!!!\n" +
                     "\n" +
                     "Ти отримуєш гусака №71\n" +
                     "\n" +
