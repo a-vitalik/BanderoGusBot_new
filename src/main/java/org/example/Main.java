@@ -21,6 +21,9 @@ public class Main extends TelegramLongPollingBot {
 
     public static void main(String[] args) throws TelegramApiException {
         TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
+
+        //Map.of("key1", "value1");
+
         api.registerBot(new Main());
         //System.out.println("Hello world!!!");
     }
